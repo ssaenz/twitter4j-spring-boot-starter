@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.spring.boot.autoconfigure;
+package org.meleeton.spring.boot.autoconfigure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

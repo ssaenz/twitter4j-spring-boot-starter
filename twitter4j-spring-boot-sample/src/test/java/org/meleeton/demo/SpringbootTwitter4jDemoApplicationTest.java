@@ -1,14 +1,15 @@
 /**
  * 
  */
-package com.sivalabs.demo;
+package org.meleeton.demo;
 
 import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.meleeton.demo.service.TweetService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import twitter4j.TwitterException;
@@ -18,7 +19,7 @@ import twitter4j.TwitterException;
  *
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(SpringbootTwitter4jDemoApplication.class)
+@SpringBootTest
 public class SpringbootTwitter4jDemoApplicationTest  {
 
 

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sivalabs.demo;
+package org.meleeton.demo.service;
 
 import java.util.ArrayList;
 import java.util.List;
